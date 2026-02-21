@@ -1,0 +1,12 @@
+import math as m
+t = 1
+x = 10
+
+a = 9 * 3.14 * t
+b = 10* m.cos(x)
+c = m.sqrt(t)
+d = m.fabs(m.sin(x))
+f = m.exp(x)
+
+Z = ((a + b) / (c - d)) * f
+print(Z)
